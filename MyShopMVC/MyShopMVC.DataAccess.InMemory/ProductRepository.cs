@@ -74,5 +74,10 @@ namespace MyShopMVC.DataAccess.InMemory
                 throw new Exception("Product Not Found!");
             }
         }
+
+        public void Delete()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
